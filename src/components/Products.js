@@ -5,6 +5,7 @@ import Card from "react-bootstrap/Card";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../rtk/slices/cart-slice";
 import { fetchProducts } from "../rtk/slices/products-slice";
+import React from "react";
 
 function Products() {
   const products = useSelector((state) => state.products);
